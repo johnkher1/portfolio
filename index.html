@@ -201,15 +201,17 @@
         </p>
 
         <div class="project-grid">
-          <article class="project-card">
+          <a class="project-card project-card-link" href="https://kabscholarsystem.website/login" target="_blank" rel="noopener noreferrer">
             <div class="project-thumb" aria-hidden="true">
               <span class="tc">01</span>
             </div>
-            <h3>Student Records Web App</h3>
-            <p class="project-tags">PHP · MySQL · HTML/CSS</p>
-            <p>A CRUD system built for a coursework project — handles student records with
-              login-gated access and a normalized MySQL schema behind it.</p>
-          </article>
+            <h3>Scholarship Management System</h3>
+            <p class="project-tags">HTML · Tailwind CSS · JavaScript · Python · FastAPI · MySQL</p>
+            <p>A web-based scholarship management system designed to help manage scholarship
+              applications, student records, eligibility screening, and scholarship-related
+              processes.</p>
+            <span class="project-meta">Live project ↗</span>
+          </a>
           <article class="project-card">
             <div class="project-thumb" aria-hidden="true">
               <span class="tc">02</span>
@@ -219,23 +221,74 @@
             <p>A self-directed build to learn FastAPI properly: REST endpoints, request
               validation, and a small Tailwind frontend consuming the API.</p>
           </article>
-          <article class="project-card">
+          <a class="project-card project-card-link" href="#video-samples">
             <div class="project-thumb" aria-hidden="true">
               <span class="tc">03</span>
             </div>
-            <h3>Short-Form Edit Reel</h3>
-            <p class="project-tags">Video editing · Captions · Vertical format</p>
-            <p>A sample reel showing pacing and caption work for short-form platforms —
-              placeholder until client-approved samples can be linked here.</p>
-          </article>
+            <h3>Video Editing Samples</h3>
+            <p class="project-tags">Video Editing · Captions · Motion Graphics</p>
+            <p>A selection of video editing samples showcasing different editing styles,
+              pacing, captions, transitions, and visual treatments.</p>
+            <span class="project-meta">View samples ↓</span>
+          </a>
         </div>
         <p class="project-note">Have a project brief in mind? Send it over — I'll tell you honestly whether it's a good fit before we start.</p>
       </div>
     </div>
   </section>
 
+  <!-- ============ VIDEO SAMPLES ============ -->
+  <!--
+    HOW TO ADD A VIDEO:
+    Replace any .video-slot block below with either:
+      1) A native video file:
+         <video class="video-slot" controls poster="assets/clip-01-poster.jpg">
+           <source src="assets/clip-01.mp4" type="video/mp4">
+         </video>
+      2) An embedded YouTube/Vimeo player:
+         <div class="video-slot video-slot-embed">
+           <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Clip 01"
+             frameborder="0" allowfullscreen></iframe>
+         </div>
+    Duplicate a .video-slot-empty block to add more slots — the grid wraps
+    automatically, so there's no limit on how many you add.
+  -->
+  <section class="section" id="video-samples">
+    <div class="wrap section-grid">
+      <div class="section-marker">
+        <span class="tc" data-tc="00:02:52:18">SCENE 05B</span>
+        <span class="marker-title">Video samples</span>
+      </div>
+      <div class="section-body">
+        <h2>Editing samples.</h2>
+        <p class="section-lede">
+          A working reel of clips — swap each slot below for an actual video as I add them.
+        </p>
+        <div class="video-grid">
+          <div class="video-slot video-slot-empty">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="tc">CLIP 01</span>
+          </div>
+          <div class="video-slot video-slot-empty">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="tc">CLIP 02</span>
+          </div>
+          <div class="video-slot video-slot-empty">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="tc">CLIP 03</span>
+          </div>
+          <div class="video-slot video-slot-empty">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="tc">CLIP 04</span>
+          </div>
+        </div>
+        <p class="project-note"><a href="#work">↑ Back to selected work</a></p>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ WHY WORK WITH ME ============ -->
-  <section class="section" id="why">
+  <section class="section section-alt" id="why">
     <div class="wrap section-grid">
       <div class="section-marker">
         <span class="tc" data-tc="00:03:05:11">SCENE 06</span>
@@ -273,7 +326,7 @@
   <section class="section contact-section" id="contact">
     <div class="wrap">
       <div class="section-marker">
-        <span class="tc" data-tc="00:03:44:00">SCENE 07 — OUTRO</span>
+        <span class="tc" data-tc="00:03:44:00">SCENE 08 — OUTRO</span>
         <span class="marker-title">Let's talk</span>
       </div>
       <h2>Tell me about your project.</h2>
@@ -282,17 +335,17 @@
         messages in one place. Email and GitHub are below if you'd rather start there.
       </p>
       <div class="contact-links">
-        <a class="contact-link" href="https://www.upwork.com/freelancers/~018f4a684011d42f4a" target="_blank" rel="noopener">
+        <a class="contact-link" href="https://www.upwork.com/freelancers/~018f4a684011d42f4a?mp_source=share">
           <span class="contact-label">Upwork</span>
           <span class="contact-value">Hire me on Upwork →</span>
         </a>
-        <a class="contact-link" href="mailto:khersemilla1@gmail.com">
+        <a class="contact-link" href="khersemilla1@gmail.com">
           <span class="contact-label">Email</span>
           <span class="contact-value">khersemilla1@gmail.com →</span>
         </a>
         <a class="contact-link" href="https://github.com/johnkher1" target="_blank" rel="noopener">
           <span class="contact-label">GitHub</span>
-          <span class="contact-value">github.com/johnkher1 →</span>
+          <span class="contact-value">github.com/johnkher1→</span>
         </a>
       </div>
     </div>
