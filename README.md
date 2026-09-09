@@ -28,6 +28,20 @@ Search for these in `index.html` and swap in your real info:
   rather use screenshots, replace the `<div class="project-thumb">` with an
   `<img>` tag
 
+## Video introduction
+
+Your own intro video now plays directly from `assets/introduction.mp4` in
+the **About** section, right under the two intro paragraphs — a plain
+HTML5 `<video controls>` element, same pattern as the work samples below
+it.
+
+Your original upload was HEVC-encoded 1440p (44.6MB). HEVC has spotty
+playback support in Chrome and Firefox on Windows/Linux, so I transcoded
+it to H.264 (1080p, ~6.8MB) for reliable playback across browsers and a
+much faster load for site visitors. The original quality is preserved
+closely at that bitrate; if you ever want the full 1440p version instead,
+just re-export and swap the file, keeping the same filename.
+
 ## Video samples
 
 The **Video samples** section (`id="video-samples"`) now plays your four
